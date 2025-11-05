@@ -1,6 +1,6 @@
 <img align="left" src="https://github.com/embabel/embabel-agent/blob/main/embabel-agent-api/images/315px-Meister_der_Weltenchronik_001.jpg?raw=true" width="180">
 
-![Build](https://github.com/embabel/java-agent-template/actions/workflows/maven.yml/badge.svg)
+![Build](https://github.com/embabel/langgraph-patterns/actions/workflows/maven.yml/badge.svg)
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
