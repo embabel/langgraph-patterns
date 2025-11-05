@@ -18,6 +18,9 @@
 
 # Demonstration of superiority of Embabel over LangGraph (Python)
 
+See the
+blog [Build Better Agents in Java vs Python: Embabel vs LangGraph](https://medium.com/@springrod/build-better-agents-in-java-vs-python-embabel-vs-langgraph-f7951a0d855c)
+for a detailed writeup.
 
 # Running
 
@@ -27,17 +30,20 @@ Run the shell script to start Embabel under Spring Shell:
 ./scripts/shell.sh
 ```
 
-When the Embabel shell comes up, invoke the story agent like this:
+When the Embabel shell comes up, run the blog title generator like this:
 
 ```
-x "Tell me a story about...[your topic]"
+blogs topics "Why Embabel GOAP planning is superior to LangGraph state machine and why the JVM bests Python"
 ```
 
-Try the following other shell commands:
+Invoke the draft and refine agent like this:
 
-- `demo`: Runs the same agent, invoked programmatically, instead of dynamically based on user input.
-  See [DemoCommands.java](./src/main/java/com/embabel/template/DemoShell.java) for the
-  implementation.
-- `animal`:  Runs a simple demo using an Embabel injected `Ai` instance to call an LLM.
-  See [InjectedDemo](./src/main/java/com/embabel/template/injected/InjectedDemo.java).
+```
+x "Draft and refine [text you want]"
+```
 
+Invoke the sentiment analysis flow like this:
+
+```
+x "Analyze sentiment and respond to '[text you want to respond to]' "
+```
